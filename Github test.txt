@@ -1,0 +1,46 @@
+#SETUP
+
+cmd prompt
+location
+git init
+dir
+git config --global user.name "_________ _"
+git config --global user.email ____________________
+cls
+
+##setup is done
+
+
+Google:readme.so --> Create a readme file, download and put it in the folder
+git status
+git add .
+git commit -m "first commit"
+git status
+git branch
+git branch -M main
+cls
+git branch
+
+
+#Below line of code should be taken from ur repository
+git remote add origin https://github.com/avanth________.git
+git remote -v
+git push origin main
+cls
+
+#changing content in readme then again...
+git status
+git add .
+git commit -m "second commit
+git remote -v
+git push origin main
+
+
+#Restore changes
+git status
+git restore .
+
+
+#To clone 
+location
+git clone *URL*
